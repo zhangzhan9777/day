@@ -1,4 +1,4 @@
-name: DrinkWater
+name: DrinkWater1
 on:
   schedule:
   - cron:  '*/2 * * * *'
