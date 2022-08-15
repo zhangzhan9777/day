@@ -16,7 +16,7 @@ app_secret = os.environ["APP_SECRET"]
 
 user_id = os.environ["USER_ID"]
 
-template_id = os.environ["TEMPLATE_ID"]
+
 template_water = os.environ["TEMPLATE_WATER"]
 
 
@@ -29,6 +29,6 @@ client = WeChatClient(app_id, app_secret)
 wm = WeChatMessage(client)
 
 data = {}
-res = wm.send_template(user_id, template_id,data)
+res = wm.send_template(user_id, template_water,data)
 
 print(res)
